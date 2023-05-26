@@ -133,7 +133,7 @@ def num():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as yaari:
+    with ThreadPool(max_workers=50) as yaari:
         os.system('clear')
         print(logo)
         tl = str(len(user))
@@ -171,7 +171,7 @@ def gml():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(1,4))
         user.append(nmp)
-    with ThreadPool(max_workers=60) as yaari:
+    with ThreadPool(max_workers=50) as yaari:
         os.system('clear')
         print(logo)
         tl = str(len(user))
